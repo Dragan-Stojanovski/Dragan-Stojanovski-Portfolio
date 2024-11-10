@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <section class="hero-section">
+    <section id="hero-section" class="hero-section">
       
         <div class="hero_section_wrapper">     
             <nav>
@@ -20,11 +20,11 @@
                 </div>
                 <button class="menu-toggle" onclick="toggleMenu()">☰</button>
                 <ul id="nav-menu">
-                    <li><div class="nav_counter">01</div><div>// home</div></li>
-                    <li><div class="nav_counter">02</div><div>// expertise</div></li>
-                    <li><div class="nav_counter">03</div><div>// work</div></li>
-                    <li><div class="nav_counter">04</div><div>// experience</div></li>
-                    <li><div class="nav_counter">05</div><div>// contact</div></li>
+                    <li><a href="#hero-section"><div class="nav_counter">01</div><div>// home</div></a></li>
+                    <li><a href="#expertises"><div class="nav_counter">02</div><div>// expertise</div></a></li>
+                    <!-- <li><div class="nav_counter">03</div><div>// work</div></li> -->
+                    <li><a href="#experience"><div class="nav_counter">03</div><div>// experience</div></a></li>
+                    <li><a href="#contact"><div class="nav_counter">04</div><div>// contact</div></a></li>
                 </ul>
             </nav>
  
@@ -35,7 +35,7 @@
 <div class="bacgkorund-overlay"></div>
 </div>
 </section>
-<section class="expertise_section_wrapper">
+<section class="expertise_section_wrapper" id="expertises">
 <h2>My Expertise</h2>
 <div class="expertises_wrapper">
    
@@ -80,7 +80,7 @@
 </section>
 
 
-<section class="professional_experience_section">
+<section id="experience" class="professional_experience_section">
 <h2>Professional<br> Experience</h2>
 <div class="experience_presentation_wrapper">
     <button type="button" class="collapsible"><div class="experience_explanation_wrapper"><h4>Frontend Intership @ Writerity.Inc</h4> <h4>August 2022 – October 2022</h4> </div> </button>
@@ -162,7 +162,7 @@
 </section>
 
 
-<footer>
+<footer id="contact">
     <div class="footer_wrapper">
         <div class="footer_box">
             <h3>Available for select freelance opportunities</h3>
